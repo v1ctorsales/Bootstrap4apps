@@ -1,0 +1,13 @@
+#title{
+    background: rgb(224,219,70);
+background: linear-gradient(180deg, rgba(224,219,70,1) 0%, rgba(168,212,49,1) 59%);
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat-Black', sans-serif;
+}
