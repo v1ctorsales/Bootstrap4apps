@@ -48,3 +48,49 @@ body{
 .download-button{
     margin: 5% 3% 5% 0;
 }
+
+#features{
+    margin: 10rem 0 10rem 0;
+    text-align: center;
+    padding: 0;
+}
+
+.f-box{
+    padding: 0 50px;
+}
+
+.fa-mobile {
+font-size: 5rem;
+margin-bottom: 3rem;
+color: rgb(154, 224, 41);
+}
+
+.fa-mobile:hover {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(196, 224, 41);
+    }
+
+.fa-hand-holding-dollar{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(154, 224, 41);
+}
+
+.fa-hand-holding-dollar:hover{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(196, 224, 41);
+}
+
+.fa-eye{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(154, 224, 41);
+}
+
+.fa-eye:hover{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(196, 224, 41);
+}
