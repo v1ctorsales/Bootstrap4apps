@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Karon</title>
+  <link rel="icon" type="image/x-icon" href="https://play-lh.googleusercontent.com/_gLAh5T3A1yZe4SoBbukFx5sS7r2pfGY_ASBIFuJMDMjH05rf4ABTStoDiVes-VdOvIZ=w240-h480-rw">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -13,6 +14,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -24,20 +29,22 @@
     <!-- Nav Bar -->
 
 <nav class="navbar navbar-expand-lg navbar">
-    <a class="navbar-brand" href="">Karon</a>
+    <a class="navbar-brand" href="#">
+    <img src="https://play-lh.googleusercontent.com/_gLAh5T3A1yZe4SoBbukFx5sS7r2pfGY_ASBIFuJMDMjH05rf4ABTStoDiVes-VdOvIZ=w240-h480-rw" width="50" height="50" alt="">
+  </a>
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="">Passageiro</a>
+            <a class="nav-link" href="#title">Passageiro</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Motorista</a>
+            <a class="nav-link" href="#cta">Motorista</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Contato</a>
+            <a class="nav-link" href="#footer">Contato</a>
         </li>
     </ul>
  </div>
@@ -54,7 +61,7 @@
       <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
     </div>
     <div class="col col-lg-6">
-      <img src="https://www.pngplay.com/wp-content/uploads/7/Mobile-Screen-PNG-HD-Quality.png" alt="iphone-mockup">
+      <img src="images/cel1.png" alt="iphone-mockup">
     </div>
   </div>
 
@@ -100,17 +107,17 @@
           <div class="carousel-item active">
             <h3>"O futuro do transporte urbano está na palma da sua mão."</h3>
             <img class="testimonial-image" src="https://www.digicatapult.org.uk/wp-content/uploads/2021/11/DC_square_People_juergen-600x600-c-default.jpg" alt="dog-profile">
-            <em>Heitor Dantas, CEO da Karon</em>
+            <p>Heitor, CEO da Karon</p>
           </div>
           <div class="carousel-item">
             <h3 class="testimonial-text">"Com certeza Karon é o aplicativo mais acessível para o dia-a-dia!"</h3> 
             <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-            <em>Luiza, Passageira</em>
+            <p>Luiza, Passageira</p>
           </div>
           <div class="carousel-item">
             <h3 class="testimonial-text">"Karon é o aplicativo mais rentável para os motoristas."</h3> 
             <img class="testimonial-image" src="https://www.everyaction.com/wp-content/uploads/bb-plugin/cache/everyaction-photo-portrait-41-1024x1024-square.jpg" alt="lady-profile">
-            <em>Cláudio, Motorista</em>
+            <p>Cláudio, Motorista</p>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
@@ -155,10 +162,54 @@
 
   <!-- Footer -->
 
-  <footer class="bg-light text-center text-lg-start" id="footer">
+  <footer id="footer" class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4 footer1">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Mail -->
+                <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © Copyright:
+    <div class="text-center text-dark p-3 footer2">
+      © 2023 Copyright:
       <a class="text-dark" href="#">Karon</a>
     </div>
     <!-- Copyright -->
